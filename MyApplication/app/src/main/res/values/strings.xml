@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="nameHint">Your Name (Optional)</string>
+    <string name="sendBtnValue">Send</string>
+    <string name="commentsHint">Enter your comments here</string>
+    <string name="emailHint">Your e-mail (Optional)</string>
+</resources>

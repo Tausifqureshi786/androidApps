@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:background="@drawable/background"
+        app:columnCount="3"
+        app:rowCount="3">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20sp"
+            android:alpha="0"
+            android:contentDescription="@string/image_view"
+            android:onClick="placeMarker"
+            android:tag="0"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/o" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20sp"
+            android:alpha="0"
+            android:contentDescription="@string/image_view1"
+            android:onClick="placeMarker"
+            android:tag="1"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:srcCompat="@drawable/o" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20sp"
+            android:alpha="0"
+            android:contentDescription="@string/image_view2"
+            android:onClick="placeMarker"
+            android:tag="2"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/cross" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20sp"
+            android:alpha="0"
+            android:clickable="false"
+            android:contentDescription="@string/image_view3"
+            android:onClick="placeMarker"
+            android:tag="3"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/o" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20sp"
+            android:alpha="0"
+            android:contentDescription="@string/image_view4"
+            android:onClick="placeMarker"
+            android:tag="4"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/cross" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20sp"
+            android:alpha="0"
+            android:contentDescription="@string/image_view5"
+            android:onClick="placeMarker"
+            android:tag="5"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/o" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20sp"
+            android:alpha="0"
+            android:contentDescription="@string/image_view6"
+            android:onClick="placeMarker"
+            android:tag="6"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:srcCompat="@drawable/o" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20sp"
+            android:alpha="0"
+            android:contentDescription="@string/image_view7"
+            android:onClick="placeMarker"
+            android:tag="7"
+            app:layout_column="1"
+            app:layout_row="2"
+            app:srcCompat="@drawable/o" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="20sp"
+            android:alpha="0"
+            android:contentDescription="@string/image_view8"
+            android:onClick="placeMarker"
+            android:tag="8"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/o" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="337dp"
+        android:layout_height="117dp"
+        android:layout_below="@+id/grid"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="32dp"
+        android:alpha="0"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="211dp"
+            android:layout_height="53dp"
+            android:layout_weight="1"
+            android:text="@string/WinnerName"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/restart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="restartGame"
+            android:text="@string/button"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

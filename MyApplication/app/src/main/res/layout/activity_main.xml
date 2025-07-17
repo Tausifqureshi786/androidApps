@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="0"
+    android:background="#272424"
+    android:orientation="vertical"
+    android:padding="35dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/nameHint"
+        android:inputType="textPersonName"
+        android:shadowColor="#799FBD"
+        android:textColor="#6E6666"
+        android:textColorHighlight="#C85D5D"
+        android:textColorHint="#757070"
+        android:textColorLink="#2074B6"
+        android:textIsSelectable="false"
+        android:textSelectHandle="@color/teal_200"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0"
+        android:ems="10"
+        android:hint="@string/emailHint"
+        android:inputType="textEmailAddress"
+        android:textColor="#757070"
+        android:textColorHint="#757070"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="15"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/commentsHint"
+        android:inputType="textMultiLine"
+        android:textColorHint="#757070"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#D11D1D"
+        android:text="@string/sendBtnValue"
+        android:textSize="20sp"
+        app:backgroundTint="#D11D1D" />
+
+</LinearLayout>

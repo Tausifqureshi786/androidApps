@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="welcome_to_tic_tac_toe">Welcome to Tic-Tac-Toe</string>
+    <string name="todo">TODO</string>
+    <string name="image_view">image view</string>
+    <string name="image_view1">image View</string>
+    <string name="image_view2">image view</string>
+    <string name="image_view3">image View</string>
+    <string name="image_view4">image View</string>
+    <string name="image_view5">image View</string>
+    <string name="image_view6">image view</string>
+    <string name="image_view7">image view</string>
+    <string name="image_view8">image view</string>
+    <string name="button">Restart</string>
+    <string name="WinnerName">TextView</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyMyBroadcastApplication</string>
+    <string name="send_custom_broadcast">Send Custom Broadcast</string>
+</resources>

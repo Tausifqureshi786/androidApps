@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#302B2B"
+    android:columnCount="3"
+    android:orientation="vertical"
+    android:rowCount="3"
+
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#130E0E"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:rowCount="3">
+
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_rowSpan="2"
+            android:layout_rowWeight="1"
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="1"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/landscape" />
+
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/tempsnip" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="391dp"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/image3" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            app:srcCompat="@drawable/image6" />
+
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+
+            app:srcCompat="@drawable/image4" />
+
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+
+            android:contentDescription="TODO"
+            app:srcCompat="@drawable/portrait" />
+    </GridLayout>
+</ScrollView>

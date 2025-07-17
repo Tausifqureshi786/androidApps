@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+    <string name="image_of_the_actor">Image of the actor</string>
+    <string name="start_game">Start Game</string>
+    <string name="about">About</string>
+
+    <string name="about_info">The name of the application is Guess the Celebrity. The concept is that the images of different hollywood actors are shown and you have to choose the name of the actor with the help of the given image. It test\'s the knowledge of people about the celebrities. It has been implemented using two AsyncTask internal classes out of which one fetches the images and the names of the actors from a website and the other class downloads the image and displays it with the help of ImageView component. After choosing the option a toast message is shown which indicates if the chosen name of the actor was correct or not. If not then it shows the correct answer in the toast message itself.</string>
+    <string name="appName">Guess The Celebrity App</string>
+    <string name="instructions_Text">Instructions: Guess the correct name of the actor by selecting the appropriate name of the actor displayed in the image.</string>
+    <string name="instructions">Instructions: Guess the correct name of the actor by selecting the appropriate name of the actor displayed in the image.</string>
+</resources>
